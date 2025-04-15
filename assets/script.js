@@ -41,3 +41,4 @@ const container = document.getElementById("team-container");
 
 teamMembers.forEach(member => {
   const card = document.createElement("div");
+  card.classList.add("team-card");
