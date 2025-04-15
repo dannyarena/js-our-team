@@ -40,3 +40,4 @@ const teamMembers = [
 const container = document.getElementById("team-container");
 
 teamMembers.forEach(member => {
+  const card = document.createElement("div");
